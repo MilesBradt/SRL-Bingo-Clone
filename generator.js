@@ -22,6 +22,7 @@ var SQUARES_PER_ROW = 5;
  * baselineTime:          the base amount of time that is factored in to account for starting / common setup
  * timePerDifficulty:     the ratio between time and difficulty
  */
+
 var DEFAULT_PROFILE = {
     defaultMinimumSynergy: -3,
     defaultMaximumSynergy: 7,
