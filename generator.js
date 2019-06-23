@@ -153,11 +153,9 @@ var BingoGenerator = function (bingoList, options) {
     if (bingoList.info && bingoList.info.combined === 'true') {
         if (bingoList[this.mode]) {
             bingoList = bingoList[this.mode];
-        }
-        else if (bingoList["normal"]) {
+        } else if (bingoList["normal"]) {
             bingoList = bingoList["normal"];
-        }
-        else {
+        } else {
             console.log("bingoList doesn't contain a valid sub goal list for mode: \"" + this.mode + "\"");
         }
     }
@@ -180,11 +178,9 @@ var BingoGenerator = function (bingoList, options) {
 
         if (a.id > b.id) {
             return 1;
-        }
-        else if (a.id < b.id) {
+        } else if (a.id < b.id) {
             return -1;
-        }
-        else {
+        } else {
             return 0;
         }
     });
@@ -198,8 +194,7 @@ var BingoGenerator = function (bingoList, options) {
     this.profile = NORMAL_PROFILE;
     if (this.mode === 'short') {
         this.profile = SHORT_PROFILE;
-    }
-    else if (this.mode === 'blackout') {
+    } else if (this.mode === 'blackout') {
         this.profile = BLACKOUT_PROFILE;
     }
 
@@ -240,8 +235,7 @@ BingoGenerator.prototype.makeCard = function () {
 
             // also copy the synergy
             this.bingoBoard[nextPosition].synergy = result.synergy;
-        }
-        else {
+        } else {
             return false;
         }
     }
@@ -269,9 +263,18 @@ BingoGenerator.prototype.generateMagicSquare = function () {
 };
 
 function weightedShuffle(arr) {
-    return arr.map(el => ({ el, sortVal: (el.weight || 0) + Math.random() + Math.random() + Math.random() + Math.random() - 2 }))
-        .sort(({ sortVal: sv1 }, { sortVal: sv2 }) => sv2 - sv1)
-        .map(({ el }) => el);
+    return arr.map(el => ({
+            el,
+            sortVal: (el.weight || 0) + Math.random() + Math.random() + Math.random() + Math.random() - 2
+        }))
+        .sort(({
+            sortVal: sv1
+        }, {
+            sortVal: sv2
+        }) => sv2 - sv1)
+        .map(({
+            el
+        }) => el);
 }
 
 /**
@@ -312,7 +315,10 @@ BingoGenerator.prototype.chooseGoalForPosition = function (position) {
             var synergies = this.checkLine(position, goal);
 
             if (this.maximumSynergy >= synergies.maxSynergy && synergies.minSynergy >= this.minimumSynergy) {
-                return { goal: goal, synergy: synergies.maxSynergy };
+                return {
+                    goal: goal,
+                    synergy: synergies.maxSynergy
+                };
             }
         }
     }
@@ -368,8 +374,8 @@ BingoGenerator.prototype.difficulty = function (i) {
     var Rem4 = Math.floor(Rem8 / 2);
     var Rem2 = Rem8 % 2;
     var Rem5 = Num3 % 5;
-    var Rem3 = Num3 % 3;    // Note that Rem2, Rem3, Rem4, and Rem5 are mathematically independent.
-    var RemT = Math.floor(Num3 / 120);  // This is between 0 and 8
+    var Rem3 = Num3 % 3; // Note that Rem2, Rem3, Rem4, and Rem5 are mathematically independent.
+    var RemT = Math.floor(Num3 / 120); // This is between 0 and 8
 
     // The idea is to begin with an array containing a single number, 0.
     // Each number 1 through 4 is added in a random spot in the array's current size.
@@ -388,7 +394,7 @@ BingoGenerator.prototype.difficulty = function (i) {
     Rem2 = Rem8 % 2;
     Rem5 = Num3 % 5;
     Rem3 = Num3 % 3;
-    RemT = RemT * 8 + Math.floor(Num3 / 120);   // This is between 0 and 64.
+    RemT = RemT * 8 + Math.floor(Num3 / 120); // This is between 0 and 64.
 
     var Table1 = [0];
     Table1.splice(Rem2, 0, 1);
@@ -397,8 +403,8 @@ BingoGenerator.prototype.difficulty = function (i) {
     Table1.splice(Rem5, 0, 4);
 
     i--;
-    RemT = RemT % 5;        //  Between 0 and 4, fairly uniformly.
-    x = (i + RemT) % 5;     //  RemT is horizontal shift to put any diagonal on the main diagonal.
+    RemT = RemT % 5; //  Between 0 and 4, fairly uniformly.
+    x = (i + RemT) % 5; //  RemT is horizontal shift to put any diagonal on the main diagonal.
     y = Math.floor(i / 5);
 
     // The Tables are set into a single magic square template
@@ -569,7 +575,11 @@ BingoGenerator.prototype.evaluateSquares = function (squares) {
     // bail out if there are duplicate goals
     // NOTE: keep this in addition to the duplicate checking from chooseGoalForPosition
     // because this still detects cases from hardcoded boards for analysis
-    var ids = squares.map(function (el) { return el.id; }).filter(function (el) { return el; });
+    var ids = squares.map(function (el) {
+        return el.id;
+    }).filter(function (el) {
+        return el;
+    });
     if (hasDuplicateStrings(ids)) {
         return TOO_MUCH_SYNERGY;
     }
@@ -633,8 +643,7 @@ BingoGenerator.prototype.calculateCombinedTypeSynergies = function (synergiesFor
     for (var type in typeSynergies) {
         if (type in subtypeSynergies) {
             combinedTypeSynergies[type] = typeSynergies[type].concat(subtypeSynergies[type]);
-        }
-        else {
+        } else {
             combinedTypeSynergies[type] = typeSynergies[type];
         }
     }
@@ -699,13 +708,11 @@ BingoGenerator.prototype.filterSynergyValuesForType = function (type, synergies)
     if (/^min/.test(filter)) {
         var count = Number(filter.split(" ")[1]);
         return synergies.slice(0, count);
-    }
-    else if (/^max/.test(filter)) {
+    } else if (/^max/.test(filter)) {
         var count = Number(filter.split(" ")[1]);
         synergies.reverse();
         return synergies.slice(0, count);
-    }
-    else {
+    } else {
         return synergies.slice(0, -1);
     }
 };
@@ -767,7 +774,9 @@ ootBingoGenerator = function (bingoList, opts) {
         iterations++;
     }
 
-    card["meta"] = { iterations: iterations };
+    card["meta"] = {
+        iterations: iterations
+    };
 
     if (!card) {
         console.log();
