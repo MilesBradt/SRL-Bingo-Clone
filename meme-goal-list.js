@@ -82,29 +82,6 @@ var bingoList = {
                     "deku": 3.0,
                     "selfsynergy": 0.0
                 }
-            },
-            {
-                "difficulty": 10,
-                "id": "kill-purple-leever",
-                "jp": "",
-                "name": "Kill Purple Leever",
-                "rowtypes": {
-                    "bottle": 0.0,
-                    "gclw": 0.0,
-                    "hookshot": 0.0,
-                    "ms": 0.0
-                },
-                "skill": 0.25,
-                "subtypes": {
-                    "skulls": 0.25
-                },
-                "time": 5.0,
-                "types": {
-                    "aganon": 3.0,
-                    "endon": -0.5,
-                    "hovers": 2.5,
-                    "selfsynergy": 0.0
-                }
             }
         ],
         "11": [{
@@ -137,9 +114,9 @@ var bingoList = {
             },
             {
                 "difficulty": 11,
-                "id": "snipe-guay-ontop-of-tree-at-lake-hylia",
+                "id": "snipe-guay-on-top-of-tree-at-lake-hylia",
                 "jp": "",
-                "name": "Sniper Guay ontop of the Tree at Lake Hylia",
+                "name": "Snipe Guay on Top of the Tree at Lake Hylia",
                 "rowtypes": {
                     "bottle": 0.5,
                     "gclw": 1.0,
@@ -154,83 +131,25 @@ var bingoList = {
                 "types": {
                     "selfsynergy": 0.0
                 }
-            },
-            {
-                "difficulty": 11,
-                "id": "fill-the-second-row-down-with-all-fairies",
-                "jp": "",
-                "name": "Fill the Second Rown Down with all Fairies",
-                "rowtypes": {
-                    "bottle": 100.0,
-                    "gclw": 0.0,
-                    "hookshot": 0.0,
-                    "ms": 2.0
-                },
-                "skill": 1.0,
-                "subtypes": {
-                    "child2": 0.0,
-                    "jabu": 0.0
-                },
-                "time": 8.0,
-                "types": {
-                    "bottleslot": 4.5,
-                    "selfsynergy": 0.0
-                }
             }
         ],
         "12": [{
                 "difficulty": 12,
-                "id": "5-compasses",
-                "jp": "コンパス5つ",
-                "name": "5 Compasses",
+                "id": "read-20-different-signs",
+                "jp": "",
+                "name": "Read 20 Different Signs",
                 "rowtypes": {
                     "bottle": 0.0,
                     "gclw": 1.0,
-                    "hookshot": 0.5,
-                    "ms": 2.0
-                },
-                "skill": 0.25,
-                "subtypes": {
-                    "bosskey2": 2.0,
-                    "hearts3": 1.5,
-                    "hearts4": 1.0,
-                    "map": 10.0,
-                    "skulls": 1.0
-                },
-                "time": 9.25,
-                "types": {
-                    "childchu": 0.0,
-                    "compass": 10.0,
-                    "hovers": 2.0,
-                    "incmc": 100.0,
-                    "selfsynergy": -3.0
-                }
-            },
-            {
-                "difficulty": 12,
-                "id": "6-unused-keys-in-gerudo-training-grounds",
-                "jp": "ゲルドの修練場の未使用の鍵6つ",
-                "name": "6 Unused Keys in Gerudo Training Grounds",
-                "rowtypes": {
-                    "bottle": 0.0,
-                    "gclw": 0.0,
-                    "hookshot": 1.0,
+                    "hookshot": 0.0,
                     "ms": 0.0
                 },
                 "skill": 0.5,
                 "subtypes": {
-                    "bosskey": 3.0,
-                    "hearts4": 0.25,
-                    "hovers": 0.75,
-                    "map": 3.0,
                     "skulls": 0.25
                 },
                 "time": 9.25,
                 "types": {
-                    "endon": -0.25,
-                    "fortress": 3.0,
-                    "gtg": 5.0,
-                    "incgtgkey": 100.0,
                     "selfsynergy": 0.0
                 }
             },
@@ -407,115 +326,9 @@ var bingoList = {
         ],
         "13": [{
                 "difficulty": 13,
-                "id": "3-skulltulas-in-water-temple",
-                "jp": "水の神殿の黄金のスタルチュラ3匹以上",
-                "name": "3 Skulltulas in Water Temple",
-                "rowtypes": {
-                    "bottle": 100.0,
-                    "gclw": 0.5,
-                    "hookshot": 100.0,
-                    "ms": 7.0
-                },
-                "skill": 0.5,
-                "subtypes": {
-                    "aganon": 0.25,
-                    "bbprize": -4.0,
-                    "childchu": -2.5,
-                    "compass": 2.5,
-                    "hearts3": 1.5,
-                    "hearts4": 2.5,
-                    "hovers": 0.5,
-                    "map": 2.5,
-                    "skulls": 1.5
-                },
-                "time": 9.75,
-                "types": {
-                    "dc": 2.0,
-                    "ice": 1.5,
-                    "incwskull": 100.0,
-                    "irons": 2.0,
-                    "longshot": 2.0,
-                    "selfsynergy": 0.0,
-                    "water": 3.0
-                }
-            },
-            {
-                "difficulty": 13,
-                "id": "3-swords-3-boots",
-                "jp": "剣3種、靴3種",
-                "name": "3 Swords & 3 Boots",
-                "rowtypes": {
-                    "bottle": 100.0,
-                    "gclw": 1.0,
-                    "hookshot": 0.5,
-                    "ms": 100.0
-                },
-                "skill": 0.25,
-                "subtypes": {
-                    "bulletbag": -3.0,
-                    "childchu": -1.0,
-                    "compass": 3.0,
-                    "hearts3": 1.0,
-                    "hearts4": 0.25,
-                    "map": 3.0,
-                    "poachers": 0.25,
-                    "skulls": 1.0,
-                    "songs4": 1.5
-                },
-                "time": 9.75,
-                "types": {
-                    "endon": -0.5,
-                    "fountain": 2.0,
-                    "hovers": 2.5,
-                    "ice": 1.5,
-                    "incboot": 100.0,
-                    "incsword": 100.0,
-                    "irons": 2.0,
-                    "selfsynergy": 0.0,
-                    "swords": 3.0
-                }
-            },
-            {
-                "difficulty": 13,
-                "id": "3-tunics-3-boots",
-                "jp": "服3種、靴3種",
-                "name": "3 Tunics & 3 Boots",
-                "rowtypes": {
-                    "bottle": 0.0,
-                    "gclw": 1.0,
-                    "hookshot": 0.5,
-                    "ms": 100.0
-                },
-                "skill": 0.25,
-                "subtypes": {
-                    "bosskey": 0.25,
-                    "compass": 3.0,
-                    "dmc": 0.25,
-                    "hearts3": 1.0,
-                    "hearts4": 0.25,
-                    "map": 3.0,
-                    "poachers": 0.25,
-                    "skulls": 1.0,
-                    "songs4": 1.5
-                },
-                "time": 10.0,
-                "types": {
-                    "endon": -0.5,
-                    "fountain": 2.0,
-                    "gtunic": 1.5,
-                    "hovers": 2.5,
-                    "ice": 1.5,
-                    "incboot": 100.0,
-                    "inctunic": 100.0,
-                    "irons": 2.0,
-                    "selfsynergy": 0.0
-                }
-            },
-            {
-                "difficulty": 13,
-                "id": "4-skulltulas-in-shadow-temple",
-                "jp": "闇の神殿の黄金のスタルチュラ4匹以上",
-                "name": "4 Skulltulas in Shadow Temple",
+                "id": "shoot-bongo-hand-with-ice-arrows",
+                "jp": "",
+                "name": "Shoot Bongo's Hand with Ice Arrows",
                 "rowtypes": {
                     "bottle": 0.0,
                     "gclw": 0.0,
@@ -524,10 +337,10 @@ var bingoList = {
                 },
                 "skill": 0.5,
                 "subtypes": {
+                    "magic": 2.0,
                     "bosskey2": 2.0,
                     "compass": 1.0,
-                    "poachers": 0.25,
-                    "skulls": 2.0
+                    "poachers": 0.25
                 },
                 "time": 9.5,
                 "types": {
@@ -538,159 +351,9 @@ var bingoList = {
             },
             {
                 "difficulty": 13,
-                "id": "7-different-unused-keys-in-gerudo-training-grounds",
-                "jp": "ゲルドの修練場の未使用の鍵7つ(増殖禁止)",
-                "name": "7 Different Unused Keys in Gerudo Training Grounds",
-                "rowtypes": {
-                    "bottle": 100.0,
-                    "gclw": 0.0,
-                    "hookshot": 100.0,
-                    "ms": 7.0
-                },
-                "skill": 0.5,
-                "subtypes": {
-                    "bosskey": 3.0,
-                    "hearts4": 0.25,
-                    "hovers": 0.75,
-                    "map": 3.0,
-                    "skulls": 0.5
-                },
-                "time": 9.75,
-                "types": {
-                    "endon": -0.5,
-                    "fortress": 3.0,
-                    "gtg": 3.0,
-                    "incgtgkey": 100.0,
-                    "selfsynergy": 0.0
-                }
-            },
-            {
-                "difficulty": 13,
-                "id": "all-4-wasteland-colossus-area-skulltulas",
-                "jp": "幻影の砂漠・巨大邪神像エリアの黄金のスタルチュラ4匹",
-                "name": "All 4 Wasteland/ Colossus area Skulltulas",
-                "rowtypes": {
-                    "bottle": 100.0,
-                    "gclw": 0.0,
-                    "hookshot": 100.0,
-                    "ms": 100.0
-                },
-                "skill": 0.5,
-                "subtypes": {
-                    "bosskey": 2.0,
-                    "bosskey2": 4.0,
-                    "child2": 1.0,
-                    "childreset": 1.25,
-                    "hearts4": 0.25,
-                    "map": 1.5,
-                    "skulls": 2.0,
-                    "songs10": -5.0,
-                    "songs5": 3.0
-                },
-                "time": 10.0,
-                "types": {
-                    "fortress": 2.5,
-                    "selfsynergy": 0.0,
-                    "spirit": 2.5
-                }
-            },
-            {
-                "difficulty": 13,
-                "id": "all-8-zora-s-domain-area-skulltulas",
-                "jp": "ゾーラの里エリアの黄金のスタルチュラ8匹",
-                "name": "All 8 Zora's Domain area Skulltulas",
-                "rowtypes": {
-                    "bottle": 0.0,
-                    "gclw": 1.0,
-                    "hookshot": 100.0,
-                    "ms": 100.0
-                },
-                "skill": 0.5,
-                "subtypes": {
-                    "childreset": 1.25,
-                    "compass": 2.0,
-                    "froghp": 1.0,
-                    "hearts3": 1.0,
-                    "jabu": 0.5,
-                    "map": 2.0,
-                    "skulls": 4.0
-                },
-                "time": 9.75,
-                "types": {
-                    "childchu": 0.0,
-                    "fountain": 2.0,
-                    "inczoraskull": 100.0,
-                    "selfsynergy": 0.0
-                }
-            },
-            {
-                "difficulty": 13,
-                "id": "double-defense",
-                "jp": "防御力2倍",
-                "name": "Double Defense",
-                "rowtypes": {
-                    "bottle": 100.0,
-                    "gclw": 1.0,
-                    "hookshot": 0.5,
-                    "ms": 100.0
-                },
-                "skill": 0.0,
-                "subtypes": {
-                    "aganon": 0.5,
-                    "childchu": -2.5,
-                    "chuczl": 2.0,
-                    "gtunic": 0.25,
-                    "hearts3": 1.5,
-                    "skulls": 0.25
-                },
-                "time": 9.75,
-                "types": {
-                    "bothzl": -4.0,
-                    "czl": 4.0,
-                    "dmc": 1.0,
-                    "magic": 2.0,
-                    "poachers": 4.0,
-                    "selfsynergy": 0.0
-                }
-            },
-            {
-                "difficulty": 13,
-                "id": "forest-temple-boss-key",
-                "jp": "森の神殿のボス部屋の鍵",
-                "name": "Forest Temple Boss Key",
-                "rowtypes": {
-                    "bottle": 0.5,
-                    "gclw": 1.0,
-                    "hookshot": 100.0,
-                    "ms": 3.0
-                },
-                "skill": 0.25,
-                "subtypes": {
-                    "bosskey": 4.25,
-                    "bosskey2": 5.75,
-                    "compass": 3.5,
-                    "hearts4": 1.0,
-                    "hovers": 1.25,
-                    "lightarrow": 3.0,
-                    "map": 2.5,
-                    "quiver": 4.5,
-                    "skulls": 1.0,
-                    "songs5": 1.75
-                },
-                "time": 9.75,
-                "types": {
-                    "claimcheck": 10.0,
-                    "forest": 4.0,
-                    "incforest": 100.0,
-                    "meg": 4.25,
-                    "selfsynergy": 0.0
-                }
-            },
-            {
-                "difficulty": 13,
-                "id": "get-bombchu-chest-in-spirit-temple",
-                "jp": "魂の神殿のボムチュウ取得",
-                "name": "Get Bombchu chest in Spirit Temple",
+                "id": "take-damage-to-both-nipples-on-spirit-statue",
+                "jp": "",
+                "name": "Take Damage to Both Nipples on Spirit Statue",
                 "rowtypes": {
                     "bottle": 0.0,
                     "gclw": 0.0,
@@ -716,38 +379,9 @@ var bingoList = {
             },
             {
                 "difficulty": 13,
-                "id": "keaton-mask",
-                "jp": "キータンのお面",
-                "name": "Keaton Mask",
-                "rowtypes": {
-                    "bottle": 0.0,
-                    "gclw": 0.0,
-                    "hookshot": 0.0,
-                    "ms": 0.0
-                },
-                "skill": 0.0,
-                "subtypes": {
-                    "cganon": 2.0,
-                    "hearts3": 3.0,
-                    "hearts4": 1.0,
-                    "marketgs": 2.0,
-                    "songs4": 1.75
-                },
-                "time": 9.75,
-                "types": {
-                    "childchu": 0.0,
-                    "childtrade": 2.75,
-                    "chuczl": 2.0,
-                    "czl": 5.0,
-                    "incctrade": 100.0,
-                    "selfsynergy": 0.0
-                }
-            },
-            {
-                "difficulty": 13,
-                "id": "megaton-hammer",
-                "jp": "メガトンハンマー",
-                "name": "Megaton Hammer",
+                "id": "send-tektite-to-orbit",
+                "jp": "",
+                "name": "Send Tektite to Orbit",
                 "rowtypes": {
                     "bottle": 0.5,
                     "gclw": 1.0,
@@ -776,75 +410,9 @@ var bingoList = {
             },
             {
                 "difficulty": 13,
-                "id": "mirror-shield",
-                "jp": "ミラーシールド",
-                "name": "Mirror Shield",
-                "rowtypes": {
-                    "bottle": 0.0,
-                    "gclw": 0.0,
-                    "hookshot": 100.0,
-                    "ms": 5.5
-                },
-                "skill": 0.5,
-                "subtypes": {
-                    "bosskey": 3.0,
-                    "bosskey2": 5.0,
-                    "compass": 1.0,
-                    "hearts3": 0.5,
-                    "hearts4": 0.5,
-                    "map": 3.0,
-                    "poachers": 0.25,
-                    "skulls": 0.75,
-                    "songs5": 1.0
-                },
-                "time": 10.0,
-                "types": {
-                    "fortress": 2.5,
-                    "gtg": 1.0,
-                    "hovers": 2.5,
-                    "incmirror": 100.0,
-                    "incshield": 100.0,
-                    "incspboss": 100.0,
-                    "selfsynergy": 0.0,
-                    "spirit": 3.5
-                }
-            },
-            {
-                "difficulty": 13,
-                "id": "obtain-all-5-small-keys-in-forest-temple",
-                "jp": "森の神殿の小さな鍵の宝箱を5つ全て開ける",
-                "name": "Obtain all 5 Small Keys in Forest Temple",
-                "rowtypes": {
-                    "bottle": 0.5,
-                    "gclw": 1.0,
-                    "hookshot": 100.0,
-                    "ms": 5.0
-                },
-                "skill": 0.25,
-                "subtypes": {
-                    "bosskey": 2.0,
-                    "bosskey2": 6.0,
-                    "compass": 4.0,
-                    "hearts4": 1.0,
-                    "hovers": 1.25,
-                    "map": 3.0,
-                    "quiver": 4.5,
-                    "skulls": 1.0,
-                    "songs5": 1.75
-                },
-                "time": 9.75,
-                "types": {
-                    "forest": 3.0,
-                    "incforest": 100.0,
-                    "meg": 5.0,
-                    "selfsynergy": 0.0
-                }
-            },
-            {
-                "difficulty": 13,
-                "id": "obtain-all-8-small-keys-in-fire-temple",
-                "jp": "炎の神殿の小さな鍵の宝箱を８つ全て開ける",
-                "name": "Obtain all 8 Small Keys in Fire Temple",
+                "id": "collect-all-recovery-hearts-in-fire-temple",
+                "jp": "",
+                "name": "Collect all Recovery Hearts in Fire Temple",
                 "rowtypes": {
                     "bottle": 0.5,
                     "gclw": 1.0,
@@ -906,13 +474,13 @@ var bingoList = {
         ],
         "14": [{
                 "difficulty": 14,
-                "id": "3-shields",
-                "jp": "盾3種",
-                "name": "3 Shields",
+                "id": "kill-purple-leever",
+                "jp": "",
+                "name": "Kill Purple Leever",
                 "rowtypes": {
                     "bottle": 0.0,
                     "gclw": 0.0,
-                    "hookshot": 100.0,
+                    "hookshot": 0.0,
                     "ms": 5.0
                 },
                 "skill": 0.5,
@@ -1386,120 +954,39 @@ var bingoList = {
         ],
         "17": [{
                 "difficulty": 17,
-                "id": "3-swords-3-shields",
-                "jp": "剣3種、盾3種",
-                "name": "3 Swords & 3 Shields",
-                "rowtypes": {
-                    "bottle": 100.0,
-                    "gclw": 1.0,
-                    "hookshot": 100.0,
-                    "ms": 100.0
-                },
-                "skill": 0.5,
-                "subtypes": {
-                    "bosskey": 3.0,
-                    "bosskey2": 5.0,
-                    "bulletbag": -3.0,
-                    "childchu": -1.0,
-                    "compass": 1.0,
-                    "hearts3": 0.5,
-                    "hearts4": 0.5,
-                    "map": 3.0,
-                    "poachers": 0.25,
-                    "skulls": 0.75,
-                    "songs5": 1.0
-                },
-                "time": 12.5,
-                "types": {
-                    "fortress": 2.5,
-                    "gtg": 1.0,
-                    "hovers": 2.5,
-                    "incshield": 100.0,
-                    "incsword": 100.0,
-                    "selfsynergy": 0.0,
-                    "spirit": 3.5,
-                    "swords": 3.0
-                }
-            },
-            {
-                "difficulty": 17,
-                "id": "6-compasses",
-                "jp": "コンパス6つ",
-                "name": "6 Compasses",
-                "rowtypes": {
-                    "bottle": 0.0,
-                    "gclw": 1.0,
-                    "hookshot": 0.5,
-                    "ms": 3.0
-                },
-                "skill": 0.5,
-                "subtypes": {
-                    "bosskey2": 2.0,
-                    "hearts3": 1.5,
-                    "hearts4": 1.0,
-                    "map": 15.0,
-                    "poachers": 0.75,
-                    "skulls": 1.0
-                },
-                "time": 13.0,
-                "types": {
-                    "childchu": 0.0,
-                    "compass": 15.0,
-                    "hovers": 2.5,
-                    "incmc": 100.0,
-                    "selfsynergy": -3.0
-                }
-            },
-            {
-                "difficulty": 17,
-                "id": "8-hearts",
-                "jp": "ハート8つ",
-                "name": "8 Hearts",
+                "id": "talk-to-the-owl-at-7-different-locations",
+                "jp": "",
+                "name": "Talk to the Owl at 7 Different Locations",
                 "rowtypes": {
                     "bottle": 0.0,
                     "gclw": 1.0,
                     "hookshot": 1.0,
-                    "ms": 6.0
+                    "ms": 0.0
                 },
                 "skill": 0.75,
-                "time": 12.75,
+                "time": 10.75,
                 "types": {
-                    "childtrade": 1.0,
-                    "hearts3": 13.0,
-                    "hearts4": 2.0,
-                    "inchearts": 100.0,
                     "saria": 1.0,
-                    "selfsynergy": -3.0
+                    "selfsynergy": 0.0
                 }
             },
             {
                 "difficulty": 17,
-                "id": "all-5-lake-hylia-skulltulas",
-                "jp": "ハイリア湖畔エリアの黄金のスタルチュラ5匹",
-                "name": "All 5 Lake Hylia Skulltulas",
+                "id": "catch-a-fish-less-than-4-pounds",
+                "jp": "",
+                "name": "Catch a Fish Less Than 4 Pounds",
                 "rowtypes": {
-                    "bottle": 100.0,
-                    "gclw": 1.0,
-                    "hookshot": 100.0,
-                    "ms": 100.0
+                    "bottle": 0.0,
+                    "gclw": 0.0,
+                    "hookshot": 0.0,
+                    "ms": 0.0
                 },
                 "skill": 0.5,
                 "subtypes": {
-                    "bottleslot": 2.0,
-                    "child2": 3.0,
-                    "compass": 4.0,
-                    "hearts3": 1.0,
-                    "hearts4": 0.25,
-                    "hovers": 0.25,
-                    "incirons": 100.0,
-                    "map": 4.0,
                     "skulls": 2.5
                 },
                 "time": 12.5,
                 "types": {
-                    "fountain": 2.0,
-                    "ice": 1.5,
-                    "inclhskull": 100.0,
                     "irons": 2.0,
                     "selfsynergy": 0.0,
                     "water": 1.0
@@ -3002,47 +2489,25 @@ var bingoList = {
                 }
             },
             {
-                "difficulty": 25,
-                "id": "two-fairy-spells",
-                "jp": "魔法のアイテム２つ",
-                "name": "Two Fairy Spells",
+                "difficulty": 11,
+                "id": "change-all-itmes-on-the-second-row-down-to-bottled-fairies",
+                "jp": "",
+                "name": "Change All Itmes on the Second Row Down to Bottled Fairies",
                 "rowtypes": {
                     "bottle": 100.0,
-                    "gclw": 1.0,
-                    "hookshot": 1.0,
-                    "ms": 0.0
+                    "gclw": 0.0,
+                    "hookshot": 0.0,
+                    "ms": 2.0
                 },
-                "skill": 0.25,
+                "skill": 1.0,
                 "subtypes": {
-                    "aganon": 0.25,
-                    "bosskey": 3.0,
-                    "bottleslot": 4.0,
-                    "child2": 5.5,
-                    "childchu": -2.5,
-                    "chuczl": 2.0,
-                    "compass": 4.0,
-                    "gtunic": 0.25,
-                    "hearts3": 2.25,
-                    "hearts4": 0.5,
-                    "map": 4.0,
-                    "skulls": 0.75
+                    "child2": 0.0,
+                    "jabu": 0.0
                 },
-                "time": 18.75,
+                "time": 8.0,
                 "types": {
-                    "bothzl": -4.0,
-                    "childtrade": 2.75,
-                    "czl": 7.0,
-                    "dmc": 0.75,
-                    "dmcchild": 0.75,
-                    "endon": -0.25,
-                    "fortress": 2.5,
-                    "fountain": 2.0,
-                    "hovers": 2.0,
-                    "incfairy": 100.0,
-                    "magic": 2.0,
-                    "poachers": 4.0,
-                    "selfsynergy": -0.5,
-                    "spirit": 2.0
+                    "bottleslot": 4.5,
+                    "selfsynergy": 0.0
                 }
             },
             {
@@ -3280,9 +2745,9 @@ var bingoList = {
             },
             {
                 "difficulty": 4,
-                "id": "silver-scale",
-                "jp": "銀のウロコ",
-                "name": "Silver Scale",
+                "id": "show-ruto-s-letter-to-king-zora",
+                "jp": "",
+                "name": "Show Ruto's letter to King Zora",
                 "rowtypes": {
                     "bottle": 0.0,
                     "gclw": 0.0,
@@ -3520,9 +2985,9 @@ var bingoList = {
             },
             {
                 "difficulty": 5,
-                "id": "giant-s-wallet",
-                "jp": "巨人のサイフ",
-                "name": "Giant's Wallet",
+                "id": "spend-1000-rupees ",
+                "jp": "",
+                "name": "Spend 1000 Rupees ",
                 "rowtypes": {
                     "bottle": 100.0,
                     "gclw": 0.0,
@@ -3534,11 +2999,10 @@ var bingoList = {
                     "bulletbag": 100.0,
                     "childchu": -2.5
                 },
-                "time": 3.75,
+                "time": 6.75,
                 "types": {
                     "incbeans": 100.0,
                     "selfsynergy": -3.0,
-                    "skulls": 100.0
                 }
             },
             {
@@ -5191,37 +4655,6 @@ var bingoList = {
             },
             {
                 "difficulty": 9,
-                "id": "longshot",
-                "jp": "ロングフック",
-                "name": "Longshot",
-                "rowtypes": {
-                    "bottle": 100.0,
-                    "gclw": 0.5,
-                    "hookshot": 100.0,
-                    "ms": 7.0
-                },
-                "skill": 0.0,
-                "subtypes": {
-                    "bbprize": -6.0,
-                    "childchu": -2.5,
-                    "compass": 3.5,
-                    "hearts4": 1.0,
-                    "hovers": 0.25,
-                    "map": 3.5,
-                    "poachers": 1.25,
-                    "skulls": 0.25
-                },
-                "time": 7.0,
-                "types": {
-                    "dc": 2.0,
-                    "inclong": 100.0,
-                    "longshot": 5.0,
-                    "selfsynergy": 0.0,
-                    "water": 3.0
-                }
-            },
-            {
-                "difficulty": 9,
                 "id": "stone-of-agony",
                 "jp": "もだえ石",
                 "name": "Stone of Agony",
@@ -5243,11 +4676,11 @@ var bingoList = {
             },
             {
                 "difficulty": 9,
-                "id": "water-medallion",
-                "jp": "水のメダル",
-                "name": "Water Medallion",
+                "id": "defeat-morpha-without-hookshot-or-longshot",
+                "jp": "",
+                "name": "Defeat Morpha without Hookshot or Longshot",
                 "rowtypes": {
-                    "bottle": 100.0,
+                    "bottle": 0.0,
                     "gclw": 0.0,
                     "hookshot": 0.5,
                     "ms": 3.0
@@ -5272,11 +4705,11 @@ var bingoList = {
             },
             {
                 "difficulty": 9,
-                "id": "win-bombchu-bowling-prize",
-                "jp": "ボムチュウボウリングの景品を何か1つ入手",
-                "name": "Win Bombchu Bowling Prize",
+                "id": "delete-kokiri-tunic",
+                "jp": "",
+                "name": "Delete Kokiri Tunic",
                 "rowtypes": {
-                    "bottle": 0.0,
+                    "bottle": 100.0,
                     "gclw": 0.0,
                     "hookshot": 0.0,
                     "ms": 0.0
@@ -5284,22 +4717,11 @@ var bingoList = {
                 "skill": 0.5,
                 "subtypes": {
                     "child2": 3.0,
-                    "compass": 2.0,
-                    "hearts3": 3.0,
-                    "hearts4": 1.0,
-                    "map": 2.0,
-                    "skulls": 0.5
                 },
-                "time": 6.75,
+                "time": 20.75,
                 "types": {
-                    "bbprize": 100.0,
-                    "childchu": 0.0,
-                    "dc": 3.0,
-                    "fortress": 1.0,
                     "gtg": 1.0,
-                    "incdodongo": 100.0,
-                    "kd": 3.0,
-                    "selfsynergy": 0.0
+                    "selfsynergy": 3.0
                 }
             },
             {
@@ -5324,37 +4746,10 @@ var bingoList = {
                     "childreset": 1.25,
                     "selfsynergy": 0.0
                 }
-            },
-            {
-                "difficulty": 9,
-                "id": "all-4-child-skulltulas-in-zora-s-domain",
-                "jp": "",
-                "name": "All 4 Child Skulltulas in Zora's Domain",
-                "rowtypes": {
-                    "bottle": 0.0,
-                    "gclw": 0.0,
-                    "hookshot": 0.0,
-                    "ms": 0.0
-                },
-                "skill": 0.0,
-                "subtypes": {
-                    "childreset": 1.25,
-                    "froghp": 1.0,
-                    "hearts3": 0.25,
-                    "jabu": 0.5,
-                    "skulls": 2.0
-                },
-                "time": 6.5,
-                "types": {
-                    "childchu": 0.0,
-                    "fountain": 2.0,
-                    "inczoraskull": 100.0,
-                    "selfsynergy": 0.0
-                }
             }
         ],
         "info": {
-            "version": "v9 beta"
+            "version": "Meme beta"
         },
         "rowtypes": {
             "bottle": 2.0,

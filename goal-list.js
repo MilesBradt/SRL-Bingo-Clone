@@ -2008,93 +2008,42 @@ var bingoList = {
             },
             {
                 "difficulty": 17,
-                "id": "8-hearts",
-                "jp": "ハート8つ",
-                "name": "8 Hearts",
+                "id": "talk-to-the-owl-at-7-different-locations",
+                "jp": "",
+                "name": "Talk to the Owl at 7 Different Locations",
                 "rowtypes": {
                     "bottle": 0.0,
                     "gclw": 1.0,
                     "hookshot": 1.0,
-                    "ms": 6.0
+                    "ms": 0.0
                 },
                 "skill": 0.75,
-                "time": 12.75,
+                "time": 10.75,
                 "types": {
-                    "childtrade": 1.0,
-                    "hearts3": 13.0,
-                    "hearts4": 2.0,
-                    "inchearts": 100.0,
                     "saria": 1.0,
-                    "selfsynergy": -3.0
+                    "selfsynergy": 0.0
                 }
             },
             {
                 "difficulty": 17,
-                "id": "all-5-lake-hylia-skulltulas",
-                "jp": "ハイリア湖畔エリアの黄金のスタルチュラ5匹",
-                "name": "All 5 Lake Hylia Skulltulas",
+                "id": "catch-a-fish-less-than-4-pounds",
+                "jp": "",
+                "name": "Catch a Fish Less Than 4 Pounds",
                 "rowtypes": {
-                    "bottle": 100.0,
-                    "gclw": 1.0,
-                    "hookshot": 100.0,
-                    "ms": 100.0
+                    "bottle": 0.0,
+                    "gclw": 0.0,
+                    "hookshot": 0.0,
+                    "ms": 0.0
                 },
                 "skill": 0.5,
                 "subtypes": {
-                    "bottleslot": 2.0,
-                    "child2": 3.0,
-                    "compass": 4.0,
-                    "hearts3": 1.0,
-                    "hearts4": 0.25,
-                    "hovers": 0.25,
-                    "incirons": 100.0,
-                    "map": 4.0,
                     "skulls": 2.5
                 },
                 "time": 12.5,
                 "types": {
-                    "fountain": 2.0,
-                    "ice": 1.5,
-                    "inclhskull": 100.0,
                     "irons": 2.0,
                     "selfsynergy": 0.0,
                     "water": 1.0
-                }
-            },
-            {
-                "difficulty": 17,
-                "id": "beat-the-fire-temple",
-                "jp": "炎の神殿クリア",
-                "name": "Beat the Fire Temple",
-                "rowtypes": {
-                    "bottle": 100.0,
-                    "gclw": 1.0,
-                    "hookshot": 0.25,
-                    "ms": 4.0
-                },
-                "skill": 0.25,
-                "subtypes": {
-                    "aganon": 2.0,
-                    "bosskey": 2.0,
-                    "compass": 4.0,
-                    "gtunic": 1.0,
-                    "hearts3": 2.5,
-                    "hearts4": 2.0,
-                    "hovers": 0.25,
-                    "lightarrow": 3.0,
-                    "map": 2.5,
-                    "pg": 1.0,
-                    "skulls": 0.25,
-                    "songs5": 1.25
-                },
-                "time": 12.5,
-                "types": {
-                    "dmc": 1.0,
-                    "endon": -1.0,
-                    "fire": 10.0,
-                    "forest": 2.0,
-                    "incvolvagia": 100.0,
-                    "selfsynergy": 0.0
                 }
             }
         ],
@@ -2205,14 +2154,14 @@ var bingoList = {
             },
             {
                 "difficulty": 18,
-                "id": "get-to-the-end-of-water-trial",
-                "jp": "水の結界の最後の部屋に到達",
-                "name": "Get to the end of Water Trial",
+                "id": "die-to-20-different-enemies",
+                "jp": "",
+                "name": "Die to 20 Different Enemies",
                 "rowtypes": {
-                    "bottle": 100.0,
+                    "bottle": 0.0,
                     "gclw": 1.0,
                     "hookshot": 0.5,
-                    "ms": 5.0
+                    "ms": 1.0
                 },
                 "skill": 0.5,
                 "subtypes": {
@@ -2222,19 +2171,11 @@ var bingoList = {
                     "hearts3": 2.5,
                     "hearts4": 1.0,
                     "hovers": 0.25,
-                    "map": 2.0,
-                    "pg": 2.0,
-                    "poachers": 3.0,
                     "skulls": 0.5,
                     "songs5": 1.25
                 },
                 "time": 13.5,
                 "types": {
-                    "aganon": 3.0,
-                    "dmc": 1.0,
-                    "endon": -0.5,
-                    "fire": 7.0,
-                    "lightarrow": 10.0,
                     "selfsynergy": 0.0
                 }
             },
