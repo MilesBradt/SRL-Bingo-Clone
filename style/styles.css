@@ -1,7 +1,7 @@
 html,
 body {
     background-image: url(../images/kakariko.png);
-    background-attachment: fixed; 
+    background-attachment: fixed;  
     color: #bec7d2;
     font-family: 'Roboto', sans-serif;
     height: 100%;
@@ -167,12 +167,11 @@ td {
 }
 
 #results {
-    width: 594px;
     padding-right: 25px;
-    margin-top: -30px;
 }
 
 #results-footer {
+    margin-top: 15px;
     float: left;
     font-size: .9em;
     text-shadow: 1px 1px 3px #000;
@@ -218,15 +217,17 @@ td {
     margin-right: 0;
 }
 
+#bingo-wrapper {
+    width: 650px;
+    background-color: rgba(0, 0, 0, .9);
+    border: 1px #4c4c4c solid;
+}
+
 #bingo {
+    width: 594px;
+    margin: 25px;
     font-weight: normal;
     font-size: .8em;
-    margin-top: 16px;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
 }
 
 #bingo .rowcol {
@@ -307,6 +308,7 @@ td {
 .transparent-div {
     background-color: rgba(0, 0, 0, 0.92);
     width: 500px;
+    border: 1px #4c4c4c solid;
 }
 
 #about-bingo {
