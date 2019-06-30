@@ -67,6 +67,28 @@ var BLACKOUT_PROFILE = {
     timePerDifficulty: DEFAULT_PROFILE.timePerDifficulty
 };
 
+var MEME_PROFILE = {
+    defaultMinimumSynergy: DEFAULT_PROFILE.defaultMinimumSynergy,
+    defaultMaximumSynergy: DEFAULT_PROFILE.defaultMaximumSynergy,
+    defaultMaximumIndividualSynergy: DEFAULT_PROFILE.defaultMaximumIndividualSynergy,
+    defaultMaximumSpill: DEFAULT_PROFILE.defaultMaximumSpill,
+    defaultInitialOffset: DEFAULT_PROFILE.defaultInitialOffset,
+    defaultMaximumOffset: DEFAULT_PROFILE.defaultMaximumOffset,
+    baselineTime: DEFAULT_PROFILE.baselineTime,
+    timePerDifficulty: DEFAULT_PROFILE.timePerDifficulty
+};
+
+var BETA_PROFILE = {
+    defaultMinimumSynergy: DEFAULT_PROFILE.defaultMinimumSynergy,
+    defaultMaximumSynergy: DEFAULT_PROFILE.defaultMaximumSynergy,
+    defaultMaximumIndividualSynergy: DEFAULT_PROFILE.defaultMaximumIndividualSynergy,
+    defaultMaximumSpill: DEFAULT_PROFILE.defaultMaximumSpill,
+    defaultInitialOffset: DEFAULT_PROFILE.defaultInitialOffset,
+    defaultMaximumOffset: DEFAULT_PROFILE.defaultMaximumOffset,
+    baselineTime: DEFAULT_PROFILE.baselineTime,
+    timePerDifficulty: DEFAULT_PROFILE.timePerDifficulty
+};
+
 var SHORTBLACKOUT_PROFILE = {
     defaultMinimumSynergy: -4,
     defaultMaximumSynergy: 4,
@@ -152,19 +174,30 @@ var BingoGenerator = function (bingoList, options) {
     this.seed = options.seed || Math.ceil(999999 * Math.random()).toString();
 
     if (bingoList.info && bingoList.info.combined === 'true') {
-        if (bingoList[this.mode]) {
+        if (this.mode === 'meme') {
+            console.log('meme mode!')
+            bingoList = memeBingoList[this.mode];
+            console.log(bingoList)
+        } else if (this.mode === 'beta') {
+            console.log('beta mode!')
+            bingoList = betaBingoList[this.mode];
+            console.log(bingoList)
+        } else if (bingoList[this.mode]) {
             bingoList = bingoList[this.mode];
+            console.log(bingoList)
         } else if (bingoList["normal"]) {
             bingoList = bingoList["normal"];
+            console.log(bingoList)
         } else {
             console.log("bingoList doesn't contain a valid sub goal list for mode: \"" + this.mode + "\"");
         }
     }
 
+    
     this.goalsByDifficulty = bingoList;
     this.rowtypeTimeSave = bingoList.rowtypes;
     this.synergyFilters = bingoList.synfilters || {};
-
+    
     // assemble a list of all goals sorted by the goals' times
     this.goalsList = [];
     for (var i = 1; i <= 25; i++) {
@@ -197,6 +230,11 @@ var BingoGenerator = function (bingoList, options) {
         this.profile = SHORT_PROFILE;
     } else if (this.mode === 'blackout') {
         this.profile = BLACKOUT_PROFILE;
+    } else if (this.mode === 'meme') {
+        this.profile = MEME_PROFILE;
+        console.log('meme profile')
+    } else if (this.mode === 'beta') {
+        this.profile = BETA_PROFILE;
     }
 
     this.baselineTime = options.baselineTime || this.profile.baselineTime;

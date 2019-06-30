@@ -4,7 +4,7 @@ var memeBingoList = {
         "combined": "true",
         "version": "Meme Goals"
     },
-    "normal": {
+    "meme": {
         "0": [],
         "1": [
             {
@@ -3763,7 +3763,7 @@ var memeBingoList = {
             }
         ],
         "info": {
-            "version": "Meme beta"
+            "version": "Meme"
         },
         "rowtypes": {
             "bottle": 2.0,
