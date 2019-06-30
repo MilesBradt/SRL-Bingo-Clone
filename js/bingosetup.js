@@ -172,8 +172,8 @@ function bingosetup() {
                 bingoList = betaBingoList
             }
         
-            $("#results-footer").html("<p>OoT Bingo <strong>" + bingoList["info"].version + "</strong>&emsp;Seed: <strong>" +
-                opts.seed + "</strong>&emsp;Card type: <strong>" + cardType + "</strong></p>");
+            $("#results-footer").html("<p><span class='bingo-info'>OoT Bingo: </span><strong>" + bingoList["info"].version + 
+            "</strong>&emsp;<span class='bingo-info'>Seed: </span><strong>" + opts.seed + "</strong>&emsp;<span class='bingo-info'>Card type: </span><strong>" + cardType + "</strong></p>");
         } else {
             alert("Card could not be generated");
         }

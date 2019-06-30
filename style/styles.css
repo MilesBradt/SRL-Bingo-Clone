@@ -1,53 +1,12 @@
-.gold {
-    color: #f7e279;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.6), 0 0 1px #8d8145;
-}
-
-.silver {
-    color: #bec7d2;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.6), 0 0 1px #6d7278;
-}
-
-.bronze {
-    color: #e09456;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.6), 0 0 1px #805531;
-}
-
-.red {
-    color: #fa5050;
-}
-
-.green {
-    color: #52d64f;
-}
-
-.grey {
-    color: #808080;
-}
-
-.sans {
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: normal;
-    font-size: 0.88em;
-}
-
-.serif {
-    font-family: 'Merriweather', Georgia, serif;
-    font-weight: 800;
-    font-size: 1.21em;
-}
-
-.small {
-    font-size: 75%;
-}
-
 html,
 body {
-    background: #111111;
+    background-image: url(../images/triforce-bg.jpg);
+    background-attachment: fixed;
+    /* background: #111111; */
     color: #bec7d2;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
-    font-size: 0.88em;
+    font-size: .9em;
     padding: 0;
     margin: 0;
     height: 100%;
@@ -111,61 +70,6 @@ footer .right {
 
 footer .container {
     padding: 8px 0;
-}
-
-#wrap {
-    min-height: 100%;
-}
-
-#main {
-    padding-bottom: 28px;
-}
-
-#logo {
-    background: url("http://c15111086.r86.cf2.rackcdn.com/srl_350px.png") no-repeat;
-    display: block;
-    overflow: hidden;
-    width: 350px;
-    height: 50px;
-    margin-bottom: 13px;
-    float: left;
-}
-
-#logo span {
-    display: none;
-}
-
-#headerright {
-    display: block;
-    overflow: hidden;
-    height: 50px;
-    margin-bottom: 13px;
-    width: 594px;
-    margin-right: 16px;
-    float: right;
-    text-align: center;
-    font-family: 'Merriweather', Georgia, serif;
-    font-weight: 800;
-    font-size: 1.21em;
-    line-height: 18px;
-    color: #70e36e;
-}
-
-#headerright span {
-    color: #5d97ff;
-}
-
-#headerright a {
-    display: block;
-    padding-top: 10px;
-}
-
-#headerright a:hover {
-    color: #b4ffae;
-}
-
-#headerright a:hover span {
-    color: #78e0ff;
 }
 
 nav ul {
@@ -263,18 +167,7 @@ nav ul li a:active {
     color: #ffffff;
 }
 
-::selection {
-    background: rgba(0, 0, 0, 0.6);
-    color: #f7e279;
-}
-
-strong {
-    color: #f7e279;
-    font-weight: 700;
-}
-
-h1 {
-    font-family: 'Merriweather', Georgia, serif;
+.title {
     font-weight: 800;
     font-size: 1.21em;
     color: #e09456;
@@ -356,23 +249,6 @@ td {
     padding: 0;
 }
 
-th {
-    background-color: #c01614;
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -webkit-gradient(linear, left top, left bottom, from(#c01614), to(#a01211));
-    /* Saf4+, Chrome */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -webkit-linear-gradient(top, #c01614, #a01211);
-    /* Chrome 10+, Saf5.1+, iOS 5+ */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -moz-linear-gradient(top, #c01614, #a01211);
-    /* FF3.6 */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -ms-linear-gradient(top, #c01614, #a01211);
-    /* IE10 */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -o-linear-gradient(top, #c01614, #a01211);
-    /* Opera 11.10+ */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), linear-gradient(to bottom, #c01614, #a01211);
-    color: #f7e279;
-    text-shadow: 1px 1px 3px #111111;
-    font-weight: 700;
-}
 
 #skypedetectionswf {
     position: absolute;
@@ -455,192 +331,6 @@ th {
     -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.45);
 }
 
-.italic {
-    font-style: italic;
-}
-
-.bold {
-    font-weight: 700;
-}
-
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-}
-
-.center {
-    text-align: center;
-}
-
-.smallbuttonstyle {
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png");
-    background-color: #424242;
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -webkit-gradient(linear, left top, left bottom, from(#424242), to(#303030));
-    /* Saf4+, Chrome */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -webkit-linear-gradient(top, #424242, #303030);
-    /* Chrome 10+, Saf5.1+, iOS 5+ */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -moz-linear-gradient(top, #424242, #303030);
-    /* FF3.6 */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -ms-linear-gradient(top, #424242, #303030);
-    /* IE10 */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -o-linear-gradient(top, #424242, #303030);
-    /* Opera 11.10+ */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), linear-gradient(to bottom, #424242, #303030);
-    border-width: 1px 0px 1px 1px;
-    border-style: solid;
-    border-color: #4c4c4c #000000 #000000 #474747;
-    text-align: center;
-    display: block;
-    font-weight: 700;
-    color: #bec7d2;
-    margin: 0;
-    float: left;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
-    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-    cursor: pointer;
-}
-
-.smallbuttonstyle:hover {
-    background-color: #3c70df;
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -webkit-gradient(linear, left top, left bottom, from(#3c70df), to(#235cd4));
-    /* Saf4+, Chrome */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -webkit-linear-gradient(top, #3c70df, #235cd4);
-    /* Chrome 10+, Saf5.1+, iOS 5+ */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -moz-linear-gradient(top, #3c70df, #235cd4);
-    /* FF3.6 */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -ms-linear-gradient(top, #3c70df, #235cd4);
-    /* IE10 */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -o-linear-gradient(top, #3c70df, #235cd4);
-    /* Opera 11.10+ */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), linear-gradient(to bottom, #3c70df, #235cd4);
-    border-width: 1px 0px 1px 1px;
-    border-style: solid;
-    border-color: #4e7de2 #102a63 #102a63 #4576e0;
-    color: #ffffff;
-}
-
-.smallbuttonstyle:active {
-    background-color: #1448b3;
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -webkit-gradient(linear, left top, left bottom, from(#1448b3), to(#103b93));
-    /* Saf4+, Chrome */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -webkit-linear-gradient(top, #1448b3, #103b93);
-    /* Chrome 10+, Saf5.1+, iOS 5+ */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -moz-linear-gradient(top, #1448b3, #103b93);
-    /* FF3.6 */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -ms-linear-gradient(top, #1448b3, #103b93);
-    /* IE10 */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -o-linear-gradient(top, #1448b3, #103b93);
-    /* Opera 11.10+ */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), linear-gradient(to bottom, #1448b3, #103b93);
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0.6);
-    -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.6);
-    /*position:relative; top:1px;*/
-    border-width: 1px 0px 1px 1px;
-    border-style: solid;
-    border-color: #164fc5 #071a40 #071a40 #154cbc;
-    color: #ffffff;
-}
-
-.smallbutton {
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png");
-    background-color: #424242;
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -webkit-gradient(linear, left top, left bottom, from(#424242), to(#303030));
-    /* Saf4+, Chrome */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -webkit-linear-gradient(top, #424242, #303030);
-    /* Chrome 10+, Saf5.1+, iOS 5+ */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -moz-linear-gradient(top, #424242, #303030);
-    /* FF3.6 */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -ms-linear-gradient(top, #424242, #303030);
-    /* IE10 */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -o-linear-gradient(top, #424242, #303030);
-    /* Opera 11.10+ */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), linear-gradient(to bottom, #424242, #303030);
-    border-width: 1px 0px 1px 1px;
-    border-style: solid;
-    border-color: #4c4c4c #000000 #000000 #474747;
-    text-align: center;
-    display: block;
-    font-weight: 700;
-    color: #bec7d2;
-    margin: 0;
-    float: left;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
-    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-    cursor: pointer;
-    width: 105px;
-    margin-right: 16px;
-    margin-bottom: 8px;
-    padding: 4px 0;
-    text-decoration: none;
-}
-
-.smallbutton:hover {
-    background-color: #3c70df;
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -webkit-gradient(linear, left top, left bottom, from(#3c70df), to(#235cd4));
-    /* Saf4+, Chrome */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -webkit-linear-gradient(top, #3c70df, #235cd4);
-    /* Chrome 10+, Saf5.1+, iOS 5+ */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -moz-linear-gradient(top, #3c70df, #235cd4);
-    /* FF3.6 */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -ms-linear-gradient(top, #3c70df, #235cd4);
-    /* IE10 */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -o-linear-gradient(top, #3c70df, #235cd4);
-    /* Opera 11.10+ */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), linear-gradient(to bottom, #3c70df, #235cd4);
-    border-width: 1px 0px 1px 1px;
-    border-style: solid;
-    border-color: #4e7de2 #102a63 #102a63 #4576e0;
-    color: #ffffff;
-}
-
-.smallbutton:active {
-    background-color: #1448b3;
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -webkit-gradient(linear, left top, left bottom, from(#1448b3), to(#103b93));
-    /* Saf4+, Chrome */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -webkit-linear-gradient(top, #1448b3, #103b93);
-    /* Chrome 10+, Saf5.1+, iOS 5+ */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -moz-linear-gradient(top, #1448b3, #103b93);
-    /* FF3.6 */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -ms-linear-gradient(top, #1448b3, #103b93);
-    /* IE10 */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -o-linear-gradient(top, #1448b3, #103b93);
-    /* Opera 11.10+ */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), linear-gradient(to bottom, #1448b3, #103b93);
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0.6);
-    -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.6);
-    /*position:relative; top:1px;*/
-    border-width: 1px 0px 1px 1px;
-    border-style: solid;
-    border-color: #164fc5 #071a40 #071a40 #154cbc;
-    color: #ffffff;
-}
-
-#buttonholder {
-    width: 100%;
-}
 
 #bingoPage #results {
     float: left;
@@ -649,63 +339,38 @@ th {
     text-align: right;
 }
 
+#bingoPage #results-footer {
+    float: left;
+}
+
 #bingoPage .newcard {
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png");
     background-color: #424242;
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -webkit-gradient(linear, left top, left bottom, from(#424242), to(#303030));
-    /* Saf4+, Chrome */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -webkit-linear-gradient(top, #424242, #303030);
-    /* Chrome 10+, Saf5.1+, iOS 5+ */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -moz-linear-gradient(top, #424242, #303030);
-    /* FF3.6 */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -ms-linear-gradient(top, #424242, #303030);
-    /* IE10 */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -o-linear-gradient(top, #424242, #303030);
-    /* Opera 11.10+ */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), linear-gradient(to bottom, #424242, #303030);
-    border-width: 1px 0px 1px 1px;
-    border-style: solid;
-    border-color: #4c4c4c #000000 #000000 #474747;
+    color: #bec7d2;
     text-align: center;
     display: block;
     font-weight: 700;
-    color: #bec7d2;
-    margin: 0;
+    margin: 1em;
     float: left;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
-    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
+    border-radius: 25px;
     cursor: pointer;
     width: 105px;
-    margin-right: 16px;
-    padding: 4px 0;
+    padding: 9px;
 }
 
 #bingoPage .newcard:hover {
     background-color: #3c70df;
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -webkit-gradient(linear, left top, left bottom, from(#3c70df), to(#235cd4));
-    /* Saf4+, Chrome */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -webkit-linear-gradient(top, #3c70df, #235cd4);
-    /* Chrome 10+, Saf5.1+, iOS 5+ */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -moz-linear-gradient(top, #3c70df, #235cd4);
-    /* FF3.6 */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -ms-linear-gradient(top, #3c70df, #235cd4);
-    /* IE10 */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -o-linear-gradient(top, #3c70df, #235cd4);
-    /* Opera 11.10+ */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), linear-gradient(to bottom, #3c70df, #235cd4);
-    border-width: 1px 0px 1px 1px;
-    border-style: solid;
-    border-color: #4e7de2 #102a63 #102a63 #4576e0;
     color: #ffffff;
+    text-align: center;
+    display: block;
+    font-weight: 700;
+    margin: 1em;
+    float: left;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+    cursor: pointer;
+    width: 105px;
+    padding: 9px;
 }
 
 #bingoPage .newcard:active {
@@ -828,6 +493,11 @@ th {
     float: right;
     width: 350px;
     margin-right: 16px;
+}
+
+.bingo-info {
+    color: #e09456;
+    font-weight: 800;
 }
 
 .debug-pane {
