@@ -359,7 +359,7 @@ td {
 }
 
 #bingoPage .newcard:hover {
-    background-color: #3c70df;
+    background-color: #6C8C8C;
     color: #ffffff;
     text-align: center;
     display: block;
@@ -371,29 +371,6 @@ td {
     cursor: pointer;
     width: 105px;
     padding: 9px;
-}
-
-#bingoPage .newcard:active {
-    background-color: #1448b3;
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -webkit-gradient(linear, left top, left bottom, from(#1448b3), to(#103b93));
-    /* Saf4+, Chrome */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -webkit-linear-gradient(top, #1448b3, #103b93);
-    /* Chrome 10+, Saf5.1+, iOS 5+ */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -moz-linear-gradient(top, #1448b3, #103b93);
-    /* FF3.6 */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -ms-linear-gradient(top, #1448b3, #103b93);
-    /* IE10 */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), -o-linear-gradient(top, #1448b3, #103b93);
-    /* Opera 11.10+ */
-    background-image: url("http://c15111086.r86.cf2.rackcdn.com/grunge_button.png"), linear-gradient(to bottom, #1448b3, #103b93);
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0.6);
-    -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.6);
-    /*position:relative; top:1px;*/
-    border-width: 1px 0px 1px 1px;
-    border-style: solid;
-    border-color: #164fc5 #071a40 #071a40 #154cbc;
-    color: #ffffff;
 }
 
 #bingoPage .newcard:last-child {
