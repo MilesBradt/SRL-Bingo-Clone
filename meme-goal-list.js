@@ -1845,9 +1845,9 @@ var bingoList = {
             },
             {
                 "difficulty": 11,
-                "id": "change-all-itmes-on-the-second-row-down-to-bottled-fairies",
+                "id": "change-all-items-on-the-second-row-down-to-bottled-fairies",
                 "jp": "",
-                "name": "Change all Itmes on the Second Row Down to Bottled Fairies",
+                "name": "Change all Items on the Second Row Down to Bottled Fairies",
                 "rowtypes": {
                     "bottle": 100.0,
                     "gclw": 0.0,
