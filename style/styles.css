@@ -163,17 +163,16 @@ td {
 }
 
 #bingo-container {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #results {
     padding-right: 25px;
 }
 
-#results-footer {
-    margin-top: 15px;
-    float: left;
+#results-header {
+    margin-top: -30px;
     font-size: .9em;
     text-shadow: 1px 1px 3px #000;
 }
@@ -308,7 +307,6 @@ td {
 
 .transparent-div {
     background-color: rgba(0, 0, 0, 0.92);
-    width: 500px;
     border: 1px #4c4c4c solid;
 }
 
