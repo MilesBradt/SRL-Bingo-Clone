@@ -802,7 +802,7 @@ BingoGenerator.prototype.calculateEffectiveSynergyForSquares = function (synergi
 
 // preserve this function name for compatibility with existing code
 ootBingoGenerator = function (bingoList, opts) {
-
+    
     var bingoGenerator = new BingoGenerator(bingoList, opts);
 
     // repeatedly attempt to generate a card until it succeeds, bailing out after 10 fails

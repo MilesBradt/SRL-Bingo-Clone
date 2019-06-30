@@ -97,6 +97,8 @@ function bingosetup() {
         'blackout': 'Blackout',
         'normal': 'Normal',
         'short': 'Short',
+        'meme' : 'Meme',
+        'beta' : 'Beta',
         'long': 'Long'
     };
 
@@ -161,8 +163,9 @@ function bingosetup() {
 
         if (bingoBoard) {
             setBoard(bingoBoard);
-
+            
             var cardType = prettyMode[opts.mode];
+        
             $("#results-footer").html("<p>OoT Bingo <strong>" + bingoList["info"].version + "</strong>&emsp;Seed: <strong>" +
                 opts.seed + "</strong>&emsp;Card type: <strong>" + cardType + "</strong></p>");
         } else {
