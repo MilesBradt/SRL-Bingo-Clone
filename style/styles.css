@@ -163,7 +163,8 @@ td {
 }
 
 #bingo-container {
-    padding-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #results {
