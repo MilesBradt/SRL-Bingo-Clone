@@ -165,6 +165,12 @@ function bingosetup() {
             setBoard(bingoBoard);
             
             var cardType = prettyMode[opts.mode];
+
+            if (cardType === 'Meme') {
+                bingoList = memeBingoList
+            } else if (cardType === 'Beta') {
+                bingoList = betaBingoList
+            }
         
             $("#results-footer").html("<p>OoT Bingo <strong>" + bingoList["info"].version + "</strong>&emsp;Seed: <strong>" +
                 opts.seed + "</strong>&emsp;Card type: <strong>" + cardType + "</strong></p>");

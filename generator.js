@@ -175,19 +175,13 @@ var BingoGenerator = function (bingoList, options) {
 
     if (bingoList.info && bingoList.info.combined === 'true') {
         if (this.mode === 'meme') {
-            console.log('meme mode!')
             bingoList = memeBingoList[this.mode];
-            console.log(bingoList)
         } else if (this.mode === 'beta') {
-            console.log('beta mode!')
             bingoList = betaBingoList[this.mode];
-            console.log(bingoList)
         } else if (bingoList[this.mode]) {
             bingoList = bingoList[this.mode];
-            console.log(bingoList)
         } else if (bingoList["normal"]) {
             bingoList = bingoList["normal"];
-            console.log(bingoList)
         } else {
             console.log("bingoList doesn't contain a valid sub goal list for mode: \"" + this.mode + "\"");
         }
@@ -232,7 +226,6 @@ var BingoGenerator = function (bingoList, options) {
         this.profile = BLACKOUT_PROFILE;
     } else if (this.mode === 'meme') {
         this.profile = MEME_PROFILE;
-        console.log('meme profile')
     } else if (this.mode === 'beta') {
         this.profile = BETA_PROFILE;
     }
@@ -803,8 +796,9 @@ BingoGenerator.prototype.calculateEffectiveSynergyForSquares = function (synergi
 // preserve this function name for compatibility with existing code
 ootBingoGenerator = function (bingoList, opts) {
     
+    
     var bingoGenerator = new BingoGenerator(bingoList, opts);
-
+    
     // repeatedly attempt to generate a card until it succeeds, bailing out after 10 fails
     var card = false;
     var iterations = 0;
@@ -818,7 +812,6 @@ ootBingoGenerator = function (bingoList, opts) {
     };
 
     if (!card) {
-        console.log();
         console.log(iterations);
     }
     return card;

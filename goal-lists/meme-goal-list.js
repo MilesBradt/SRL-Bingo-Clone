@@ -2,7 +2,7 @@
 var memeBingoList = {
     "info": {
         "combined": "true",
-        "version": "v1.0"
+        "version": "v1.0 Meme"
     },
     "meme": {
         "0": [],
