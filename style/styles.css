@@ -1,8 +1,7 @@
 html,
 body {
-    background-image: url(../images/triforce-bg.jpg);
-    background-attachment: fixed;
-    /* background: #111111; */
+    background-image: url(../images/kakariko.png);
+    background-attachment: fixed; 
     color: #bec7d2;
     font-family: 'Roboto', sans-serif;
     height: 100%;
@@ -124,6 +123,7 @@ nav ul li a:active {
 }
 
 #about {
+    margin-top: 15px;
     float: left;
     font-size: 1em;
 }
@@ -146,7 +146,6 @@ ul {
 }
 
 ul li {
-    list-style-type: square;
     list-style-position: inside;
     padding-bottom: 10px;
 }
@@ -169,11 +168,19 @@ td {
 
 #results {
     width: 594px;
+    padding-right: 25px;
+    margin-top: -30px;
 }
 
 #results-footer {
     float: left;
     font-size: .9em;
+    text-shadow: 1px 1px 3px #000;
+}
+
+#about-text {
+    font-size: .9em;
+    line-height: 1.1;
 }
 
 .newcard {
@@ -193,7 +200,7 @@ td {
 }
 
 .newcard:hover {
-    background-color: #6C8C8C;
+    background-color: #6b78f05d;
     color: #ffffff;
     text-align: center;
     display: block;
@@ -259,7 +266,7 @@ td {
     height: 90px;
     text-align: center;
     border: 1px #424242 solid;
-    background:rgba(0,0,0,.65);
+    background:rgba(0,0,0,.95);
 }
 
 #bingo tr td:first-child {
@@ -277,7 +284,7 @@ td {
 }
 
 #bingo tr td:hover,#bingo tr td.hover {
-    background: rgba(0,26,54,.5);
+    background: rgba(0,26,54,.85);
     color: #fff;
 }
 
@@ -297,10 +304,14 @@ td {
     background: #770022;
 }
 
-#about_bingo {
+.transparent-div {
+    background-color: rgba(0, 0, 0, 0.92);
+    width: 500px;
+}
+
+#about-bingo {
     float: right;
-    width: 350px;
-    margin-right: 16px;
+    padding-left: 25px;
 }
 
 .bingo-info {
