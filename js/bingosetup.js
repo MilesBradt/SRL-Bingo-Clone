@@ -12,11 +12,6 @@ function bingosetup() {
         window.open('http://www.speedrunslive.com/tools/bingo-popout.html#' + name + '=' + items.join(';;;'), "_blank", "toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=220, height=460");
     });
 
-    $('.seed-link').click(function () {
-        history.pushState({}, "seed for card", '?seed=' + initialOpts.seed + '&mode=' + initialOpts.mode);
-    })
-
-
     $("#bingo tr td:not(.popout), #selected td").toggle(
         function () {
             $(this).addClass("greensquare");

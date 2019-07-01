@@ -147,6 +147,7 @@ nav ul li a:active {
 #input-url {
     width: 5px;
     opacity: 0;
+    cursor: default;
 }
 
 #copied {
