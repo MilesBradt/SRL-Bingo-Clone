@@ -9,8 +9,38 @@ body {
     line-height: 15px;
 }
 
-.always_scrollbar {
-    overflow-y: scroll;
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: -1em;
+    margin-top: 2px;
+}
+
+ul li {
+    list-style-position: inside;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    padding: 0;
+}
+
+td {
+    border: 0;
+    padding: 0;
 }
 
 nav ul {
@@ -126,40 +156,6 @@ nav ul li a:active {
     margin-top: 15px;
     float: left;
     font-size: 1em;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-ul {
-    margin-left: 0;
-    padding-left: 1em;
-    text-indent: -1em;
-    margin-top: 2px;
-}
-
-ul li {
-    list-style-position: inside;
-    padding-bottom: 10px;
-}
-
-table {
-    width: 100%;
-    border-spacing: 0px;
-    border-collapse: collapse;
-    padding: 0;
-}
-
-td {
-    border: 0;
-    padding: 0;
 }
 
 #bingo-container {
@@ -326,14 +322,6 @@ td {
 
 .debug-pane h2 {
     margin-bottom: 5px;
-}
-
-.centered {
-    text-align: center;
-}
-
-.pointer {
-    cursor: pointer;
 }
 
 .debug-type-row {
