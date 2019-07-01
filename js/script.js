@@ -12,11 +12,12 @@ $(document).ready(function () {
         lang: getUrlParameter('lang') || 'name'
     };
     
-    history.pushState({}, "seed for card", '?seed=' + initialOpts.seed + '&mode=' + initialOpts.mode);
+    
 
     console.log(initialOpts.seed)
 
     $('.seed-link').click(function () {
+        history.pushState({}, "seed for card", '?seed=' + initialOpts.seed + '&mode=' + initialOpts.mode);
         $("#input-url").val(location.href);
         console.log(document.getElementById("input-url").value);
         copyURL();
