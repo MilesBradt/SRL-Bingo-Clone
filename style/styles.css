@@ -149,6 +149,14 @@ nav ul li a:active {
     opacity: 0;
 }
 
+#copied {
+    display: none;
+    font-size: .8em;
+    font-weight: bold;
+    float: right;
+    margin-top: 22.3px;
+}
+
 #cards {
     float: left;
 }

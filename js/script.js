@@ -9,5 +9,7 @@ $(document).ready(function () {
         $("#input-url").val(location.href);
         console.log(document.getElementById("input-url").value);
         copyURL();
+        $("#copied").fadeIn("slow")
+        $("#copied").fadeOut("slow")
     });
 });
