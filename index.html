@@ -67,134 +67,141 @@
     <script src="./generator.js" type="text/javascript"></script>
     <script src="./js/script.js" type="text/javascript"></script>
     <script src="js/bingosetup.js" type="text/javascript"></script>
-    <div class="container" id="bingo-container">
-        <div class="row">
-            <div class="col-lr" id="results">
-                <div id="results-header">
+    <div id="page-wrapper">
+        <div class="container" id="bingo-container">
+            <div class="row">
+                <div class="col-lr" id="results">
+                    <div id="results-header">
+                    </div>
+                    <div id="bingo-wrapper">
+                        <table id="bingo">
+                            <tr>
+                                <td class="popout" id="tlbr">TL-BR</td>
+                                <td class="popout" id="col1">COL1</td>
+                                <td class="popout" id="col2">COL2</td>
+                                <td class="popout" id="col3">COL3</td>
+                                <td class="popout" id="col4">COL4</td>
+                                <td class="popout" id="col5">COL5</td>
+                            </tr>
+                            <tr>
+                                <td class="popout" id="row1">ROW1</td>
+                                <td class="row1 col1 tlbr" id="slot1"></td>
+                                <td class="row1 col2" id="slot2"></td>
+                                <td class="row1 col3" id="slot3"></td>
+                                <td class="row1 col4" id="slot4"></td>
+                                <td class="row1 col5 bltr" id="slot5"></td>
+                            </tr>
+                            <tr>
+                                <td class="popout" id="row2">ROW2</td>
+                                <td class="row2 col1" id="slot6"></td>
+                                <td class="row2 col2 tlbr" id="slot7"></td>
+                                <td class="row2 col3" id="slot8"></td>
+                                <td class="row2 col4 bltr" id="slot9"></td>
+                                <td class="row2 col5" id="slot10"></td>
+                            </tr>
+                            <tr>
+                                <td class="popout" id="row3">ROW3</td>
+                                <td class="row3 col1" id="slot11"></td>
+                                <td class="row3 col2" id="slot12"></td>
+                                <td class="row3 col3 tlbr bltr" id="slot13"></td>
+                                <td class="row3 col4" id="slot14"></td>
+                                <td class="row3 col5" id="slot15"></td>
+                            </tr>
+                            <tr>
+                                <td class="popout" id="row4">ROW4</td>
+                                <td class="row4 col1" id="slot16"></td>
+                                <td class="row4 col2 bltr" id="slot17"></td>
+                                <td class="row4 col3" id="slot18"></td>
+                                <td class="row4 col4 tlbr" id="slot19"></td>
+                                <td class="row4 col5" id="slot20"></td>
+                            </tr>
+                            <tr>
+                                <td class="popout" id="row5">ROW5</td>
+                                <td class="row5 col1 bltr" id="slot21"></td>
+                                <td class="row5 col2" id="slot22"></td>
+                                <td class="row5 col3" id="slot23"></td>
+                                <td class="row5 col4" id="slot24"></td>
+                                <td class="row5 col5 tlbr" id="slot25"></td>
+                            </tr>
+                            <tr>
+                                <td class="popout" id="bltr">BL-TR</td>
+                            </tr>
+                        </table>
+                    </div>
+
                 </div>
-                <div id="bingo-wrapper">
-                    <table id="bingo">
-                        <tr>
-                            <td class="popout" id="tlbr">TL-BR</td>
-                            <td class="popout" id="col1">COL1</td>
-                            <td class="popout" id="col2">COL2</td>
-                            <td class="popout" id="col3">COL3</td>
-                            <td class="popout" id="col4">COL4</td>
-                            <td class="popout" id="col5">COL5</td>
-                        </tr>
-                        <tr>
-                            <td class="popout" id="row1">ROW1</td>
-                            <td class="row1 col1 tlbr" id="slot1"></td>
-                            <td class="row1 col2" id="slot2"></td>
-                            <td class="row1 col3" id="slot3"></td>
-                            <td class="row1 col4" id="slot4"></td>
-                            <td class="row1 col5 bltr" id="slot5"></td>
-                        </tr>
-                        <tr>
-                            <td class="popout" id="row2">ROW2</td>
-                            <td class="row2 col1" id="slot6"></td>
-                            <td class="row2 col2 tlbr" id="slot7"></td>
-                            <td class="row2 col3" id="slot8"></td>
-                            <td class="row2 col4 bltr" id="slot9"></td>
-                            <td class="row2 col5" id="slot10"></td>
-                        </tr>
-                        <tr>
-                            <td class="popout" id="row3">ROW3</td>
-                            <td class="row3 col1" id="slot11"></td>
-                            <td class="row3 col2" id="slot12"></td>
-                            <td class="row3 col3 tlbr bltr" id="slot13"></td>
-                            <td class="row3 col4" id="slot14"></td>
-                            <td class="row3 col5" id="slot15"></td>
-                        </tr>
-                        <tr>
-                            <td class="popout" id="row4">ROW4</td>
-                            <td class="row4 col1" id="slot16"></td>
-                            <td class="row4 col2 bltr" id="slot17"></td>
-                            <td class="row4 col3" id="slot18"></td>
-                            <td class="row4 col4 tlbr" id="slot19"></td>
-                            <td class="row4 col5" id="slot20"></td>
-                        </tr>
-                        <tr>
-                            <td class="popout" id="row5">ROW5</td>
-                            <td class="row5 col1 bltr" id="slot21"></td>
-                            <td class="row5 col2" id="slot22"></td>
-                            <td class="row5 col3" id="slot23"></td>
-                            <td class="row5 col4" id="slot24"></td>
-                            <td class="row5 col5 tlbr" id="slot25"></td>
-                        </tr>
-                        <tr>
-                            <td class="popout" id="bltr">BL-TR</td>
-                        </tr>
-                    </table>
-                </div>
-                
-            </div>
-            <div class="col-lg transparent-div">
-                <div id="about-bingo">
-                    <div id="info-panel">
-                        <div id="cards">
-                            <div id="new-cards">
-                                <h1 class="title">Ocarina of Time Bingo</h1>
-                                <a class="newcard" href="?mode=normal">Normal card</a>
-                                <a class="newcard" href="?mode=short">Short card</a>
-                                <a class="newcard" href="?mode=blackout">Blackout card</a>
+                <div class="col-lg transparent-div">
+                    <div id="about-bingo">
+                        <div id="info-panel">
+                            <div id="cards">
+                                <div id="new-cards">
+                                    <h1 class="title">Ocarina of Time Bingo</h1>
+                                    <a class="newcard" href="?mode=normal">Normal card</a>
+                                    <a class="newcard" href="?mode=short">Short card</a>
+                                    <a class="newcard" href="?mode=blackout">Blackout card</a>
+                                </div>
+                                <div id="new-cards">
+                                    <h1 class="title">Other Versions</h1>
+                                    <a class="newcard" href="?mode=beta">Beta card</a>
+                                    <a class="newcard" href="?mode=meme">Meme card</a>
+
+                                </div>
+                                <div id="new-cards">
+                                    <h1 class="title">Share This Card</h1>
+                                    <input id="input-url" value="testing">
+                                    <a class="seed-link">Copy URL</a>
+                                    <p id="copied">Copied!</p>
+                                </div>
                             </div>
-                            <div id="new-cards">
-                                <h1 class="title">Other Versions</h1>
-                                <a class="newcard" href="?mode=beta">Beta card</a>
-                                <a class="newcard" href="?mode=meme">Meme card</a>
-                                
-                            </div>
-                            <div id="new-cards">
-                                <h1 class="title">Share This Card</h1>
-                                <input id="input-url" value="testing">
-                                <a class="seed-link">Copy URL</a>
-                                <p id="copied">Copied!</p>
-                            </div>
-                        </div>
-                        <div id="about">
-                            <h1 class="title">About</h1>
-                            <div id="about-text">
-                                <p>This is a "Bingo" board for Ocarina of Time races.</p>
-                                <p>To win, you must complete 5 of the tasks in a row horizontally, vertically, or
-                                    diagonally.</p>
-                                <p>The seed number is used to generate the board, changing the seed will make a new
-                                    board.
-                                </p>
-                                <p>You can click on the squares to turn them green and red, this may help you organize
-                                    your
-                                    route planning.</p>
-                                <h1 class="title">Rules</h1>
-                                <p><strong>Banned Tricks for Bingo:</strong></p>
-                                <ul>
-                                    <li>Using stick as Adult</li>
-                                    <li>Get Item Manipulation (GIM)</li>
-                                    <li>Hold R to obtain Early Eyeball Frog</li>
-                                </ul>
-                                <p><strong>Item specific explanations:</strong></p>
-                                <ul>
-                                    <li>At least 1 skulltula from each dungeon: Only dungeons with blue warps are
-                                        required. </li>
-                                    <li>X Songs: Scarecrow's Song does not count.</li>
-                                    <li>Frog's HP: You only need to get one of the frog's HPs.</li>
-                                    <li>5 Zora Area HPs: Ice Cavern and Jabu Jabu does not count.</li>
-                                    <li>X Deku Sticks / Deku Nuts / Beans: Item must display visually in inventory to count.</li>
-                                    <li>X Boss Keys: Boss keys for child dungeons obtained through RBA count. </li>
-                                    <li>If it says to have an item, you must actually keep it. For example, if it says to
-                                        have "Blue Potion," you must not drink it, and you must still have it in your inventory at the time you
-                                        finish getting all 5 objectives. </li>
-                                </ul>
-                                <p><strong>When an item may be marked as completed:</strong></p>
-                                <ul>
-                                    <li>Song: When the text says "You have learned the..."</li>
-                                    <li>Item: When you are holding it above your head. </li>
-                                    <li>Beat Dungeon: When you step in the blue warp. </li>
-                                    <li>Beat a Boss/Enemy: When you strike the last blow.</li>
-                                </ul>
+                            <div id="about">
+                                <h1 class="title">About</h1>
+                                <div id="about-text">
+                                    <p>This is a "Bingo" board for Ocarina of Time races.</p>
+                                    <p>To win, you must complete 5 of the tasks in a row horizontally, vertically, or
+                                        diagonally.</p>
+                                    <p>The seed number is used to generate the board, changing the seed will make a new
+                                        board.
+                                    </p>
+                                    <p>You can click on the squares to turn them green and red, this may help you
+                                        organize
+                                        your
+                                        route planning.</p>
+                                    <h1 class="title">Rules</h1>
+                                    <p><strong>Banned Tricks for Bingo:</strong></p>
+                                    <ul>
+                                        <li>Using stick as Adult</li>
+                                        <li>Get Item Manipulation (GIM)</li>
+                                        <li>Hold R to obtain Early Eyeball Frog</li>
+                                    </ul>
+                                    <p><strong>Item specific explanations:</strong></p>
+                                    <ul>
+                                        <li>At least 1 skulltula from each dungeon: Only dungeons with blue warps are
+                                            required. </li>
+                                        <li>X Songs: Scarecrow's Song does not count.</li>
+                                        <li>Frog's HP: You only need to get one of the frog's HPs.</li>
+                                        <li>5 Zora Area HPs: Ice Cavern and Jabu Jabu does not count.</li>
+                                        <li>X Deku Sticks / Deku Nuts / Beans: Item must display visually in inventory
+                                            to count.</li>
+                                        <li>X Boss Keys: Boss keys for child dungeons obtained through RBA count. </li>
+                                        <li>If it says to have an item, you must actually keep it. For example, if it
+                                            says to
+                                            have "Blue Potion," you must not drink it, and you must still have it in
+                                            your inventory at the time you
+                                            finish getting all 5 objectives. </li>
+                                    </ul>
+                                    <p><strong>When an item may be marked as completed:</strong></p>
+                                    <ul>
+                                        <li>Song: When the text says "You have learned the..."</li>
+                                        <li>Item: When you are holding it above your head. </li>
+                                        <li>Beat Dungeon: When you step in the blue warp. </li>
+                                        <li>Beat a Boss/Enemy: When you strike the last blow.</li>
+                                    </ul>
                                     <p><strong>If Wrong Warping, any items or goals associated with the wrong warp are
-                                        obtained upon completion of the Wrong Warp.</strong></p>
-                                    <p><strong>For collection goals such as "8 hearts", "5 songs", "3 unused keys", etc, you are
-                                        allowed to exceed the required amount.</strong></p>
+                                            obtained upon completion of the Wrong Warp.</strong></p>
+                                    <p><strong>For collection goals such as "8 hearts", "5 songs", "3 unused keys", etc,
+                                            you are
+                                            allowed to exceed the required amount.</strong></p>
+                                </div>
                             </div>
                         </div>
                     </div>

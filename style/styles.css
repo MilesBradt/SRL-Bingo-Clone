@@ -1,13 +1,25 @@
 html,
 body {
-    background-image: url(../images/kakariko.png);
-    background-attachment: fixed;  
     color: #bec7d2;
     font-family: 'Roboto', sans-serif;
     height: 100%;
     /* text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3); */
     line-height: 15px;
 }
+
+#page-wrapper {
+    background-image: url(../images/kakariko.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* @media screen and (max-width: 1920px) {
+    
+} */
+
+
 
 a {
     color: inherit;
