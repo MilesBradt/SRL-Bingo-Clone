@@ -9,9 +9,9 @@ var memeBingoList = {
         "1": [
             {
                 "difficulty": 1,
-                "id": "drink-3-different-poes",
+                "id": "drink-5-different-poes",
                 "jp": "",
-                "name": "Drink 3 Different Poes",
+                "name": "Drink 5 Different Poes",
                 "rowtypes": {
                     "bottle": 100.0,
                     "gclw": 0.0,
@@ -2156,9 +2156,9 @@ var memeBingoList = {
         "49": [],
         "5": [{
                 "difficulty": 5,
-                "id": "spend-1000-rupees ",
+                "id": "buy-every-item-in-3-different-shops",
                 "jp": "",
-                "name": "Spend 1000 Rupees ",
+                "name": "Buy Every Item in 3 Different Shops ",
                 "rowtypes": {
                     "bottle": 100.0,
                     "gclw": 0.0,
@@ -2170,7 +2170,7 @@ var memeBingoList = {
                     "bulletbag": 100.0,
                     "childchu": -2.5
                 },
-                "time": 6.75,
+                "time": 12.75,
                 "types": {
                     "incbeans": 100.0,
                     "selfsynergy": -3.0,
