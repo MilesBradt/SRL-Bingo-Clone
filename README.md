@@ -14,7 +14,7 @@ _The seed number is used to generate the board, changing the seed will make a ne
 
 * $ git clone https://github.com/MilesBradt/SRL-Bingo-Clone.git
 
-* _Simply open index.html or visit <https://milesbradt.github.io/SRL-Bingo-Clone/> _
+* _Simply open index.html or visit <https://milesbradt.github.io/SRL-Bingo-Clone/>_
 
 ## Changes from original site
 * _CSS/HTML refactor to be better organized but still a work in progress_
