@@ -12,7 +12,7 @@
 
 * _Clone the applications from github by going to the terminal window command line and typing:_
 
-$ git clone https://github.com/MilesBradt/SRL-Bingo-Clone.git
+* $ git clone https://github.com/MilesBradt/SRL-Bingo-Clone.git
 
 * _Simply open index.html or visit <https://milesbradt.github.io/SRL-Bingo-Clone/> _
 
