@@ -20,6 +20,7 @@ The seed number is used to generate the board, changing the seed will make a new
 * _CSS/HTML refactor to be better organized but still a work in progress_
 * _Board generator logic was altered to read different goal list files, can be selected on the new site to choose between_
 * _Brand new original goal list is being created (meme goals)_
+* _Links to seeded boards can be copied and shared without having to manually alter the url_
 
 ## Future plans
 
