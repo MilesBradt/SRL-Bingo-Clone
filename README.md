@@ -1,12 +1,12 @@
 # Ocarina of Time Bingo Clone from Speedrunslive.com
 
-**Disclaimer: the original code for the logic to create bingo boards came from <speedrunslive.com>, I'm just refactoring it along with the front-end**
+**Disclaimer: the original code for the logic to create bingo boards came from <http://www.speedrunslive.com/tools/oot-bingo/>, I'm just refactoring it along with the front-end**
 
 ## Description
 
-* _This site creates a bingo board for Ocarina of Time races_
-* _The goal of these races are to complete 5 of the tasks in a row horizontally, vertically, or diagonally_
-* _The seed number is used to generate the board, changing the seed will make a new board_
+_This site creates a bingo board for Ocarina of Time races_
+_The goal of these races are to complete 5 of the tasks in a row horizontally, vertically, or diagonally_
+_The seed number is used to generate the board, changing the seed will make a new board_
 
 ## Setup/Installation 
 
@@ -27,6 +27,7 @@
 * _Display documented past race results_
 * _Connect users together for team or blackout bingo_
 * _Host older versions of bingo_
+* _Display tips, route ideas, and list useful glitches to complete a bingo_
 
 ## Support and contact details
 
