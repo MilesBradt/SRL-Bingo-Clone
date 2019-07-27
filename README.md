@@ -4,9 +4,9 @@
 
 ## Description
 
-_This site creates a bingo board for Ocarina of Time races_
-_The goal of these races are to complete 5 of the tasks in a row horizontally, vertically, or diagonally_
-_The seed number is used to generate the board, changing the seed will make a new board_
+_This site creates a bingo board for Ocarina of Time races. 
+The goal of these races are to complete 5 of the tasks in a row horizontally, vertically, or diagonally.
+The seed number is used to generate the board, changing the seed will make a new board._
 
 ## Setup/Installation 
 
